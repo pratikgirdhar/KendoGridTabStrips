@@ -9,7 +9,7 @@ $(document).ready(function() {
 function getProducts() { 
 $.ajax({ 
    method: 'GET', 
-   url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=SaveButtonClicked%20eq%20null&$top=1000", 
+   url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=SaveButtonClicked%20eq%20null&$top=1000", // Change SP
    headers: { 
        "accept": "application/json;odata=verbose",
        "content-type": "application/json;odata=verbose",
@@ -99,7 +99,7 @@ getOrders(); //next grid
 function getOrders() { 
     $.ajax({ 
        method: 'GET', 
-       url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Complex%27&$top=1000", 
+       url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Complex%27&$top=1000", //Change SP
        headers: { 
            "accept": "application/json;odata=verbose",
            "content-type": "application/json;odata=verbose",
@@ -184,7 +184,7 @@ function getOrders() {
 function getContoso() { 
         $.ajax({ 
            method: 'GET', 
-           url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Portfolio%27&$top=1000", 
+           url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Portfolio%27&$top=1000", //Change SP
            headers: { 
                "accept": "application/json;odata=verbose",
                "content-type": "application/json;odata=verbose",
@@ -269,7 +269,7 @@ function getContoso() {
         function getNorthWind() { 
             $.ajax({ 
                method: 'GET', 
-               url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Crime%27&$top=1000", 
+               url: "http://labsp16app:2101/Beazley/_api/web/lists/Getbytitle('BBList')/items?&$select=ID,Title,MatterDevelopments&$filter=AssignmentType%20eq%20%27Crime%27&$top=1000", //Change SP
                headers: { 
                    "accept": "application/json;odata=verbose",
                    "content-type": "application/json;odata=verbose",
